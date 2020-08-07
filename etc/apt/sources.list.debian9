@@ -1,3 +1,9 @@
 # Debian 9 Stretch.
-deb http://mirrors.ustc.edu.cn/debian-security/ stable/updates main non-free contrib
-# deb-src http://mirrors.ustc.edu.cn/debian-security/ stable/updates main non-free contrib
+deb https://mirrors.ustc.edu.cn/debian/ stretch main contrib non-free
+#deb-src https://mirrors.ustc.edu.cn/debian/ stretch main contrib non-free
+deb https://mirrors.ustc.edu.cn/debian/ stretch-updates main contrib non-free
+#deb-src https://mirrors.ustc.edu.cn/debian/ stretch-updates main contrib non-free
+deb https://mirrors.ustc.edu.cn/debian/ stretch-backports main contrib non-free
+#deb-src https://mirrors.ustc.edu.cn/debian/ stretch-backports main contrib non-free
+deb https://mirrors.ustc.edu.cn/debian-security/ stretch/updates main contrib non-free
+#deb-src https://mirrors.ustc.edu.cn/debian-security/ stretch/updates main contrib non-free
