@@ -1,0 +1,6 @@
+# http://linux.vbird.org/linux_server/0330nfs.php
+
+/home/public 192.168.1.0/24(ro,all_squash)
+/home/public 192.168.1.24(rw,sync,no_root_squash,anonuid=0,anongid=0)
+/home/public 192.168.1.23(rw,sync,root_squash)
+/home/public 192.168.1.20(rw,async,root_squash)
